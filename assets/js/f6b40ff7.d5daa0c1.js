@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[739],{63891:s=>{s.exports=JSON.parse('{"sourceUrl":"https://github.com/Michael-48/Iris/blob/master","baseUrl":"/Iris/","classOrder":[],"apiCategories":[]}')}}]);
