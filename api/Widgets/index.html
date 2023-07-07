@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v2.3.1">
 <title data-rh="true">Widgets | Iris</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://Michael-48.github.io/Iris/api/Widgets"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="Widgets | Iris"><meta data-rh="true" name="description" content="Each widget is available through Iris.&lt;widget name\&gt;"><meta data-rh="true" property="og:description" content="Each widget is available through Iris.&lt;widget name\&gt;"><link data-rh="true" rel="canonical" href="https://Michael-48.github.io/Iris/api/Widgets"><link data-rh="true" rel="alternate" href="https://Michael-48.github.io/Iris/api/Widgets" hreflang="en"><link data-rh="true" rel="alternate" href="https://Michael-48.github.io/Iris/api/Widgets" hreflang="x-default"><link rel="stylesheet" href="/Iris/assets/css/styles.6b33bbd6.css">
-<link rel="preload" href="/Iris/assets/js/runtime~main.50c81dc4.js" as="script">
-<link rel="preload" href="/Iris/assets/js/main.f56d4d2f.js" as="script">
+<link rel="preload" href="/Iris/assets/js/runtime~main.be8d8c24.js" as="script">
+<link rel="preload" href="/Iris/assets/js/main.8dc3490c.js" as="script">
 </head>
 <body class="navigation-with-keyboard">
 <script>!function(){function e(e){document.documentElement.setAttribute("data-theme",e)}var t=function(){var e=null;try{e=localStorage.getItem("theme")}catch(e){}return e}();null!==t?e(t):window.matchMedia("(prefers-color-scheme: dark)").matches?e("dark"):(window.matchMedia("(prefers-color-scheme: light)").matches,e("light"))}()</script><div id="__docusaurus">
@@ -22,18 +22,19 @@ Events<span class="token operator">:</span> <span class="token punctuation">{</s
     hovered<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="TextColored"><code style="text-decoration:none">TextColored</code><a href="#TextColored" class="hash-link" aria-label="Direct link to TextColored" title="Direct link to TextColored">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L797"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->TextColored<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="TextColored"><code style="text-decoration:none">TextColored</code><a href="#TextColored" class="hash-link" aria-label="Direct link to TextColored" title="Direct link to TextColored">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L798"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->TextColored<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A simple Textbox, which has colored text.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 Arguments<span class="token operator">:</span> <span class="token punctuation">{</span>
-    Text<span class="token operator">:</span> String
+    Text<span class="token operator">:</span> String<span class="token punctuation">,</span>
+	Color<span class="token operator">:</span> Color3
 <span class="token punctuation">}</span><span class="token punctuation">,</span>
 Events<span class="token operator">:</span> <span class="token punctuation">{</span>
     hovered<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="TextWrapped"><code style="text-decoration:none">TextWrapped</code><a href="#TextWrapped" class="hash-link" aria-label="Direct link to TextWrapped" title="Direct link to TextWrapped">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L817"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->TextWrapped<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="TextWrapped"><code style="text-decoration:none">TextWrapped</code><a href="#TextWrapped" class="hash-link" aria-label="Direct link to TextWrapped" title="Direct link to TextWrapped">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L818"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->TextWrapped<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>
   A simple Textbox, which has wrapped text.
   The width of the text is determined by the ItemWidth config field.
@@ -48,7 +49,7 @@ Events<span class="token operator">:</span> <span class="token punctuation">{</s
     hovered<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Button"><code style="text-decoration:none">Button</code><a href="#Button" class="hash-link" aria-label="Direct link to Button" title="Direct link to Button">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L836"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Button<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Button"><code style="text-decoration:none">Button</code><a href="#Button" class="hash-link" aria-label="Direct link to Button" title="Direct link to Button">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L837"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Button<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A simple button.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
@@ -60,7 +61,7 @@ Events<span class="token operator">:</span> <span class="token punctuation">{</s
     hovered<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SmallButton"><code style="text-decoration:none">SmallButton</code><a href="#SmallButton" class="hash-link" aria-label="Direct link to SmallButton" title="Direct link to SmallButton">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L855"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->SmallButton<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SmallButton"><code style="text-decoration:none">SmallButton</code><a href="#SmallButton" class="hash-link" aria-label="Direct link to SmallButton" title="Direct link to SmallButton">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L856"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->SmallButton<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A simple button, with reduced padding.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
@@ -72,12 +73,12 @@ Events<span class="token operator">:</span> <span class="token punctuation">{</s
     hovered<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Separator"><code style="text-decoration:none">Separator</code><a href="#Separator" class="hash-link" aria-label="Direct link to Separator" title="Direct link to Separator">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L867"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Separator<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Separator"><code style="text-decoration:none">Separator</code><a href="#Separator" class="hash-link" aria-label="Direct link to Separator" title="Direct link to Separator">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L868"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Separator<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A vertical or horizonal line, depending on the context, which visually seperates widgets.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">false</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Indent"><code style="text-decoration:none">Indent</code><a href="#Indent" class="hash-link" aria-label="Direct link to Indent" title="Direct link to Indent">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L882"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Indent<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Indent"><code style="text-decoration:none">Indent</code><a href="#Indent" class="hash-link" aria-label="Direct link to Indent" title="Direct link to Indent">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L883"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Indent<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>Indents its child widgets.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
@@ -85,7 +86,7 @@ Arguments<span class="token operator">:</span> <span class="token punctuation">{
     Width<span class="token operator">:</span> Number
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SameLine"><code style="text-decoration:none">SameLine</code><a href="#SameLine" class="hash-link" aria-label="Direct link to SameLine" title="Direct link to SameLine">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L898"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->SameLine<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SameLine"><code style="text-decoration:none">SameLine</code><a href="#SameLine" class="hash-link" aria-label="Direct link to SameLine" title="Direct link to SameLine">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L899"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->SameLine<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>Positions its children in a row, horizontally</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
@@ -94,12 +95,12 @@ Arguments<span class="token operator">:</span> <span class="token punctuation">{
     VerticalAlignment<span class="token operator">:</span> Enum.VerticalAlignment
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Group"><code style="text-decoration:none">Group</code><a href="#Group" class="hash-link" aria-label="Direct link to Group" title="Direct link to Group">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L910"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Group<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Group"><code style="text-decoration:none">Group</code><a href="#Group" class="hash-link" aria-label="Direct link to Group" title="Direct link to Group">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L911"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Group<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>Layout Widget, contains its children as a single group</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">false</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Checkbox"><code style="text-decoration:none">Checkbox</code><a href="#Checkbox" class="hash-link" aria-label="Direct link to Checkbox" title="Direct link to Checkbox">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L933"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Checkbox<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Checkbox"><code style="text-decoration:none">Checkbox</code><a href="#Checkbox" class="hash-link" aria-label="Direct link to Checkbox" title="Direct link to Checkbox">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L934"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Checkbox<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A checkbox which can be checked or unchecked.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -115,7 +116,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     isChecked<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Radio"><code style="text-decoration:none">Radio</code><a href="#Radio" class="hash-link" aria-label="Direct link to Radio" title="Direct link to Radio">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L957"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Radio<!-- -->:<!-- --> </code> <code class="blue_P4bS"><a style="text-decoration:underline;color:inherit" href="https://developer.roblox.com/en-us/api-reference/enum/Button" target="_blank" rel="noopener noreferrer">Button<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound" style="color:gray;vertical-align:middle;margin-left:2px"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></code><code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="RadioButton"><code style="text-decoration:none">RadioButton</code><a href="#RadioButton" class="hash-link" aria-label="Direct link to RadioButton" title="Direct link to RadioButton">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L958"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->RadioButton<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A single button used to represent a single state when used with multiple radio buttons.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -132,7 +133,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     index<span class="token operator">:</span> any
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Tree"><code style="text-decoration:none">Tree</code><a href="#Tree" class="hash-link" aria-label="Direct link to Tree" title="Direct link to Tree">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L982"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Tree<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Tree"><code style="text-decoration:none">Tree</code><a href="#Tree" class="hash-link" aria-label="Direct link to Tree" title="Direct link to Tree">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L983"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Tree<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A collapsable tree which contains children, positioned vertically.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -150,7 +151,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     isUncollapsed<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Collapsing"><code style="text-decoration:none">Collapsing</code><a href="#Collapsing" class="hash-link" aria-label="Direct link to Collapsing" title="Direct link to Collapsing">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1005"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Collapsing<!-- -->:<!-- --> </code> <code class="blue_P4bS">Header</code><code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="CollapsingHeader"><code style="text-decoration:none">CollapsingHeader</code><a href="#CollapsingHeader" class="hash-link" aria-label="Direct link to CollapsingHeader" title="Direct link to CollapsingHeader">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1006"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->CollapsingHeader<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A collapsable header designed for top level window widget management.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -166,7 +167,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     isUncollapsed<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="DragNum"><code style="text-decoration:none">DragNum</code><a href="#DragNum" class="hash-link" aria-label="Direct link to DragNum" title="Direct link to DragNum">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1034"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->DragNum<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="DragNum"><code style="text-decoration:none">DragNum</code><a href="#DragNum" class="hash-link" aria-label="Direct link to DragNum" title="Direct link to DragNum">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1035"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->DragNum<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>
   A field which allows the user to click and drag their cursor to enter a number
   You can ctrl + click to directly input a number, like InputNum
@@ -190,7 +191,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     editingText<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SliderNum"><code style="text-decoration:none">SliderNum</code><a href="#SliderNum" class="hash-link" aria-label="Direct link to SliderNum" title="Direct link to SliderNum">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1062"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->SliderNum<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SliderNum"><code style="text-decoration:none">SliderNum</code><a href="#SliderNum" class="hash-link" aria-label="Direct link to SliderNum" title="Direct link to SliderNum">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1063"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->SliderNum<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>
   A field which allows the user to slide a grip to enter a number within a range
   You can ctrl + click to directly input a number, like InputNum
@@ -213,7 +214,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     editingText<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputNum"><code style="text-decoration:none">InputNum</code><a href="#InputNum" class="hash-link" aria-label="Direct link to InputNum" title="Direct link to InputNum">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1091"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputNum<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputNum"><code style="text-decoration:none">InputNum</code><a href="#InputNum" class="hash-link" aria-label="Direct link to InputNum" title="Direct link to InputNum">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1092"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputNum<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>
   A field which allows the user to enter a number.
   Also has buttons to increment and decrement the number.
@@ -237,7 +238,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     number<span class="token operator">:</span> number
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputVector2"><code style="text-decoration:none">InputVector2</code><a href="#InputVector2" class="hash-link" aria-label="Direct link to InputVector2" title="Direct link to InputVector2">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1116"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputVector2<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputVector2"><code style="text-decoration:none">InputVector2</code><a href="#InputVector2" class="hash-link" aria-label="Direct link to InputVector2" title="Direct link to InputVector2">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1117"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputVector2<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A field which allows for the input of a Vector2.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -255,7 +256,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     number<span class="token operator">:</span> Vector2
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputVector3"><code style="text-decoration:none">InputVector3</code><a href="#InputVector3" class="hash-link" aria-label="Direct link to InputVector3" title="Direct link to InputVector3">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1141"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputVector3<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputVector3"><code style="text-decoration:none">InputVector3</code><a href="#InputVector3" class="hash-link" aria-label="Direct link to InputVector3" title="Direct link to InputVector3">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1142"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputVector3<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A field which allows for the input of a Vector3.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -273,7 +274,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     number<span class="token operator">:</span> Vector3
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputUDim"><code style="text-decoration:none">InputUDim</code><a href="#InputUDim" class="hash-link" aria-label="Direct link to InputUDim" title="Direct link to InputUDim">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1166"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputUDim<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputUDim"><code style="text-decoration:none">InputUDim</code><a href="#InputUDim" class="hash-link" aria-label="Direct link to InputUDim" title="Direct link to InputUDim">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1167"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputUDim<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A field which allows for the input of a UDim.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -291,7 +292,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     number<span class="token operator">:</span> UDim
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputUDim2"><code style="text-decoration:none">InputUDim2</code><a href="#InputUDim2" class="hash-link" aria-label="Direct link to InputUDim2" title="Direct link to InputUDim2">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1191"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputUDim2<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputUDim2"><code style="text-decoration:none">InputUDim2</code><a href="#InputUDim2" class="hash-link" aria-label="Direct link to InputUDim2" title="Direct link to InputUDim2">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1192"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputUDim2<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A field which allows for the input of a UDim2.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -309,7 +310,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     number<span class="token operator">:</span> UDim
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputColor3"><code style="text-decoration:none">InputColor3</code><a href="#InputColor3" class="hash-link" aria-label="Direct link to InputColor3" title="Direct link to InputColor3">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1215"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputColor3<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputColor3"><code style="text-decoration:none">InputColor3</code><a href="#InputColor3" class="hash-link" aria-label="Direct link to InputColor3" title="Direct link to InputColor3">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1216"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputColor3<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A field which allows for the input of a Color3.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -326,7 +327,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     color<span class="token operator">:</span> Color3
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputColor4"><code style="text-decoration:none">InputColor4</code><a href="#InputColor4" class="hash-link" aria-label="Direct link to InputColor4" title="Direct link to InputColor4">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1240"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputColor4<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputColor4"><code style="text-decoration:none">InputColor4</code><a href="#InputColor4" class="hash-link" aria-label="Direct link to InputColor4" title="Direct link to InputColor4">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1241"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputColor4<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A field which allows for the input of a Color3 and transparency.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -344,7 +345,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
 	transparency<span class="token operator">:</span> number
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputText"><code style="text-decoration:none">InputText</code><a href="#InputText" class="hash-link" aria-label="Direct link to InputText" title="Direct link to InputText">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1263"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputText<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputText"><code style="text-decoration:none">InputText</code><a href="#InputText" class="hash-link" aria-label="Direct link to InputText" title="Direct link to InputText">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1264"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputText<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A field which allows the user to enter text.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -360,7 +361,15 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     text<span class="token operator">:</span> string
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Tooltip"><code style="text-decoration:none">Tooltip</code><a href="#Tooltip" class="hash-link" aria-label="Direct link to Tooltip" title="Direct link to Tooltip">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1269"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Tooltip<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div></div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Selectable"><code style="text-decoration:none">Selectable</code><a href="#Selectable" class="hash-link" aria-label="Direct link to Selectable" title="Direct link to Selectable">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1294"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Selectable<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Tooltip"><code style="text-decoration:none">Tooltip</code><a href="#Tooltip" class="hash-link" aria-label="Direct link to Tooltip" title="Direct link to Tooltip">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1279"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Tooltip<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+<p>Displays a text label next to the cursor</p>
+<pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+hasState<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+Arguments<span class="token operator">:</span> <span class="token punctuation">{</span>
+    Text<span class="token operator">:</span> string<span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Selectable"><code style="text-decoration:none">Selectable</code><a href="#Selectable" class="hash-link" aria-label="Direct link to Selectable" title="Direct link to Selectable">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1304"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Selectable<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>An object which can be selected.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -378,7 +387,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     index<span class="token operator">:</span> any
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Combo"><code style="text-decoration:none">Combo</code><a href="#Combo" class="hash-link" aria-label="Direct link to Combo" title="Direct link to Combo">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1320"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Combo<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Combo"><code style="text-decoration:none">Combo</code><a href="#Combo" class="hash-link" aria-label="Direct link to Combo" title="Direct link to Combo">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1330"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Combo<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A selection box to choose a value from a range of values.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -397,7 +406,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
 	isOpened<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="ComboArray"><code style="text-decoration:none">ComboArray</code><a href="#ComboArray" class="hash-link" aria-label="Direct link to ComboArray" title="Direct link to ComboArray">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1349"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->ComboArray<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="ComboArray"><code style="text-decoration:none">ComboArray</code><a href="#ComboArray" class="hash-link" aria-label="Direct link to ComboArray" title="Direct link to ComboArray">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1359"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->ComboArray<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A selection box to choose a value from an array.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -419,7 +428,7 @@ Extra<span class="token operator">:</span> <span class="token punctuation">{</sp
 	selectionArray<span class="token operator">:</span> <span class="token punctuation">{</span> any <span class="token punctuation">}</span>	
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputEnum"><code style="text-decoration:none">InputEnum</code><a href="#InputEnum" class="hash-link" aria-label="Direct link to InputEnum" title="Direct link to InputEnum">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1376"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputEnum<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="InputEnum"><code style="text-decoration:none">InputEnum</code><a href="#InputEnum" class="hash-link" aria-label="Direct link to InputEnum" title="Direct link to InputEnum">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1386"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->InputEnum<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A selection box to choose a value from an Enum.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -441,7 +450,7 @@ Extra<span class="token operator">:</span> <span class="token punctuation">{</sp
 	enumType<span class="token operator">:</span> Enum	
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Table"><code style="text-decoration:none">Table</code><a href="#Table" class="hash-link" aria-label="Direct link to Table" title="Direct link to Table">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1395"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Table<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Table"><code style="text-decoration:none">Table</code><a href="#Table" class="hash-link" aria-label="Direct link to Table" title="Direct link to Table">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1405"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Table<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A layout widget which allows children to be displayed in configurable columns and rows.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
@@ -455,7 +464,7 @@ Events<span class="token operator">:</span> <span class="token punctuation">{</s
     hovered<span class="token operator">:</span> boolean
 <span class="token punctuation">}</span>
 </code></pre>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Window"><code style="text-decoration:none">Window</code><a href="#Window" class="hash-link" aria-label="Direct link to Window" title="Direct link to Window">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1449"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Window<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="Window"><code style="text-decoration:none">Window</code><a href="#Window" class="hash-link" aria-label="Direct link to Window" title="Direct link to Window">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1459"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.<!-- -->Window<!-- -->:<!-- --> </code> <code class="blue_P4bS">Widget</code></div><div>
 <p>A Window. should be used to contain most other Widgets. Cannot be inside other Widgets.</p>
 <pre class="language-json"><code class="language-json">hasChildren<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
 hasState<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
@@ -484,19 +493,19 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
     scrollDistance<span class="token operator">:</span> number
 <span class="token punctuation">}</span>
 </code></pre>
-</div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="functions">Functions<a href="#functions" class="hash-link" aria-label="Direct link to Functions" title="Direct link to Functions">​</a></h2><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="NextColumn"><code style="text-decoration:none">NextColumn</code><a href="#NextColumn" class="hash-link" aria-label="Direct link to NextColumn" title="Direct link to NextColumn">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1403"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.</code><code class="green_DgR4">NextColumn</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="functions">Functions<a href="#functions" class="hash-link" aria-label="Direct link to Functions" title="Direct link to Functions">​</a></h2><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="NextColumn"><code style="text-decoration:none">NextColumn</code><a href="#NextColumn" class="hash-link" aria-label="Direct link to NextColumn" title="Direct link to NextColumn">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1413"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.</code><code class="green_DgR4">NextColumn</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>
   In a table, moves to the next available cell. if the current cell is in the last column,
   then the next cell will be the first column of the next row.
 </p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SetColumnIndex"><code style="text-decoration:none">SetColumnIndex</code><a href="#SetColumnIndex" class="hash-link" aria-label="Direct link to SetColumnIndex" title="Direct link to SetColumnIndex">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1409"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.</code><code class="green_DgR4">SetColumnIndex</code><code>(</code><code>index<!-- -->: </code><code class="blue_P4bS">number</code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SetColumnIndex"><code style="text-decoration:none">SetColumnIndex</code><a href="#SetColumnIndex" class="hash-link" aria-label="Direct link to SetColumnIndex" title="Direct link to SetColumnIndex">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1419"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.</code><code class="green_DgR4">SetColumnIndex</code><code>(</code><code>index<!-- -->: </code><code class="blue_P4bS">number</code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>In a table, directly sets the index of the column</p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="NextRow"><code style="text-decoration:none">NextRow</code><a href="#NextRow" class="hash-link" aria-label="Direct link to NextRow" title="Direct link to NextRow">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1415"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.</code><code class="green_DgR4">NextRow</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="NextRow"><code style="text-decoration:none">NextRow</code><a href="#NextRow" class="hash-link" aria-label="Direct link to NextRow" title="Direct link to NextRow">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1425"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.</code><code class="green_DgR4">NextRow</code><code>(</code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>
   In a table, moves to the next available row,
   skipping cells in the previous column if the last cell wasn't in the last column
 </p>
-</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SetFocusedWindow"><code style="text-decoration:none">SetFocusedWindow</code><a href="#SetFocusedWindow" class="hash-link" aria-label="Direct link to SetFocusedWindow" title="Direct link to SetFocusedWindow">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1457"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.</code><code class="green_DgR4">SetFocusedWindow</code><code>(</code><code>thisWidget<!-- -->: </code><code class="blue_P4bS">table</code><code>) → </code><code>(</code><code>)</code></div><div>
+</div><div class="divider_rE5g"></div><h3 class="anchor anchorWithStickyNavbar_LWe7" id="SetFocusedWindow"><code style="text-decoration:none">SetFocusedWindow</code><a href="#SetFocusedWindow" class="hash-link" aria-label="Direct link to SetFocusedWindow" title="Direct link to SetFocusedWindow">​</a></h3><div class="repositoryDetailsContainer_BPdw"><a class="sourceButton_sEho" href="https://github.com/Michael-48/Iris/blob/master/src/client/Iris/init.lua#L1467"><div class="sourceButtonText_Vh0m">&lt;/&gt;</div></a></div><div class="memberString_GwaU"><code>Widgets<!-- -->.</code><code class="green_DgR4">SetFocusedWindow</code><code>(</code><code>thisWidget<!-- -->: </code><code class="blue_P4bS">table</code><code>) → </code><code>(</code><code>)</code></div><div>
 <p>sets the Window widget to be focused</p>
 </div></div></article></div><details><summary>Show raw api</summary><pre style="max-width:100%;white-space:pre-wrap">{
     &quot;functions&quot;: [
@@ -507,7 +516,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1403,
+                &quot;line&quot;: 1413,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -524,7 +533,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1409,
+                &quot;line&quot;: 1419,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -535,7 +544,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1415,
+                &quot;line&quot;: 1425,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -552,7 +561,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;returns&quot;: [],
             &quot;function_type&quot;: &quot;static&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1457,
+                &quot;line&quot;: 1467,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         }
@@ -569,10 +578,10 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
         },
         {
             &quot;name&quot;: &quot;TextColored&quot;,
-            &quot;desc&quot;: &quot;A simple Textbox, which has colored text.\n```json\nhasChildren: false,\nhasState: false,\nArguments: {\n    Text: String\n},\nEvents: {\n    hovered: boolean\n}\n```\r&quot;,
+            &quot;desc&quot;: &quot;A simple Textbox, which has colored text.\n```json\nhasChildren: false,\nhasState: false,\nArguments: {\n    Text: String,\n\tColor: Color3\n},\nEvents: {\n    hovered: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 797,
+                &quot;line&quot;: 798,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -581,7 +590,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A simple Textbox, which has wrapped text.\nThe width of the text is determined by the ItemWidth config field.\n```json \nhasChildren: false,\nhasState: false,\nArguments: {\n    Text: String,\n    Color: Color3\n},\nEvents: {\n    hovered: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 817,
+                &quot;line&quot;: 818,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -590,7 +599,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A simple button.\n```json \nhasChildren: false,\nhasState: false,\nArguments: {\n    Text: String\n},\nEvents: {\n    clicked: boolean,\n    hovered: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 836,
+                &quot;line&quot;: 837,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -599,7 +608,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A simple button, with reduced padding.\n```json \nhasChildren: false,\nhasState: false,\nArguments: {\n    Text: String\n},\nEvents: {\n    clicked: boolean,\n    hovered: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 855,
+                &quot;line&quot;: 856,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -608,7 +617,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A vertical or horizonal line, depending on the context, which visually seperates widgets.\n```json \nhasChildren: false,\nhasState: false\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 867,
+                &quot;line&quot;: 868,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -617,7 +626,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;Indents its child widgets.\n```json \nhasChildren: true,\nhasState: false,\nArguments: {\n    Width: Number\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 882,
+                &quot;line&quot;: 883,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -626,7 +635,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;Positions its children in a row, horizontally\n```json \nhasChildren: true,\nhasState: false,\nArguments: {\n    Width: Number\n    VerticalAlignment: Enum.VerticalAlignment\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 898,
+                &quot;line&quot;: 899,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -635,7 +644,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;Layout Widget, contains its children as a single group\n```json \nhasChildren: true,\nhasState: false\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 910,
+                &quot;line&quot;: 911,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -644,16 +653,16 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A checkbox which can be checked or unchecked.\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string\n},\nEvents: {\n    checked: boolean,\n    unchecked: boolean,\n    hovered: boolean\n},\nStates: {\n    isChecked: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 933,
+                &quot;line&quot;: 934,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
         {
-            &quot;name&quot;: &quot;Radio&quot;,
+            &quot;name&quot;: &quot;RadioButton&quot;,
             &quot;desc&quot;: &quot;A single button used to represent a single state when used with multiple radio buttons.\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Index: any\n},\nEvents: {\n    activated: boolean,\n    deactivated: boolean,\n    hovered: boolean\n},\nStates: {\n    index: any\n}\n```\r&quot;,
-            &quot;lua_type&quot;: &quot;Button Widget&quot;,
+            &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 957,
+                &quot;line&quot;: 958,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -662,16 +671,16 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A collapsable tree which contains children, positioned vertically.\n```json \nhasChildren: true,\nhasState: true,\nArguments: {\n    Text: string,\n    SpanAvailWidth: boolean,\n    NoIndent: boolean\n},\nEvents: {\n    collapsed: boolean,\n    uncollapsed: boolean,\n    hovered: boolean\n},\nStates: {\n    isUncollapsed: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 982,
+                &quot;line&quot;: 983,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
         {
-            &quot;name&quot;: &quot;Collapsing&quot;,
+            &quot;name&quot;: &quot;CollapsingHeader&quot;,
             &quot;desc&quot;: &quot;A collapsable header designed for top level window widget management.\n```json \nhasChildren: true,\nhasState: true,\nArguments: {\n    Text: string,\n},\nEvents: {\n    collapsed: boolean,\n    uncollapsed: boolean,\n    hovered: boolean\n},\nStates: {\n    isUncollapsed: boolean\n}\n```\r&quot;,
-            &quot;lua_type&quot;: &quot;Header Widget&quot;,
+            &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1005,
+                &quot;line&quot;: 1006,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -680,7 +689,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows the user to click and drag their cursor to enter a number\nYou can ctrl + click to directly input a number, like InputNum\nYou can hold Shift to increase speed, and Alt to decrease speed\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Increment: number,\n    Min: number,\n    Max: number,\n    Format: string,\n},\nEvents: {\n    numberChanged: boolean,\n    hovered: boolean\n},\nStates: {\n    number: number,\n    editingText: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1034,
+                &quot;line&quot;: 1035,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -689,7 +698,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows the user to slide a grip to enter a number within a range\nYou can ctrl + click to directly input a number, like InputNum\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Increment: number,\n    Min: number,\n    Max: number,\n    Format: string,\n},\nEvents: {\n    numberChanged: boolean,\n    hovered: boolean\n},\nStates: {\n    number: number,\n    editingText: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1062,
+                &quot;line&quot;: 1063,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -698,7 +707,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows the user to enter a number.\nAlso has buttons to increment and decrement the number.\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Increment: number,\n    Min: number,\n    Max: number,\n    Format: string,\n    NoButtons: boolean,\n    NoField: boolean\n},\nEvents: {\n    numberChanged: boolean,\n    hovered: boolean\n},\nStates: {\n    number: number\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1091,
+                &quot;line&quot;: 1092,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -707,7 +716,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows for the input of a Vector2.\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Increment: Vector2,\n    Min: Vector2,\n    Max: Vector2,\n    Format: string\n},\nEvents: {\n    numberChanged: boolean\n},\nStates: {\n    number: Vector2\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1116,
+                &quot;line&quot;: 1117,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -716,7 +725,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows for the input of a Vector3.\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Increment: Vector3,\n    Min: Vector3,\n    Max: Vector3,\n    Format: string\n},\nEvents: {\n    numberChanged: boolean\n},\nStates: {\n    number: Vector3\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1141,
+                &quot;line&quot;: 1142,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -725,7 +734,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows for the input of a UDim.\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Increment: UDim,\n    Min: UDim,\n    Max: UDim,\n    Format: string\n},\nEvents: {\n    numberChanged: boolean\n},\nStates: {\n    number: UDim\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1166,
+                &quot;line&quot;: 1167,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -734,7 +743,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows for the input of a UDim2.\n```json\nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Increment: UDim2,\n    Min: UDim2,\n    Max: UDim2,\n    Format: string\n},\nEvents: {\n    numberChanged: boolean\n},\nStates: {\n    number: UDim\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1191,
+                &quot;line&quot;: 1192,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -743,7 +752,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows for the input of a Color3.\n```json\nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    UseFloats: boolean,\n\tUseHSV: boolean,\n    Format: string\n},\nEvents: {\n    numberChanged: boolean\n},\nStates: {\n    color: Color3\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1215,
+                &quot;line&quot;: 1216,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -752,7 +761,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows for the input of a Color3 and transparency.\n```json\nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    UseFloats: boolean,\n\tUseHSV: boolean,\n    Format: string\n},\nEvents: {\n    numberChanged: boolean\n},\nStates: {\n    color: Color3,\n\ttransparency: number\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1240,
+                &quot;line&quot;: 1241,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -761,25 +770,25 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A field which allows the user to enter text.\n```json\nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    TextHint: string\n},\nEvents:  {\n    textChanged: boolean,\n    hovered: boolean\n}\nStates: {\n    text: string\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1263,
+                &quot;line&quot;: 1264,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
         {
             &quot;name&quot;: &quot;Tooltip&quot;,
-            &quot;desc&quot;: &quot;&quot;,
+            &quot;desc&quot;: &quot;Displays a text label next to the cursor\n```json\nhasChildren: false,\nhasState: false,\nArguments: {\n    Text: string,\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1269,
+                &quot;line&quot;: 1279,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
         {
             &quot;name&quot;: &quot;Selectable&quot;,
-            &quot;desc&quot;: &quot;An object which can be selected.\n```json \nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Index: any,\n    NoClick: boolean\n},\nEvents: {\n    selected: boolean,\n\tunselected: boolean,\n\tactive: boolean\n},\nStates: {\n    index: any\n}\n```\r&quot;,
+            &quot;desc&quot;: &quot;An object which can be selected.\n```json\nhasChildren: false,\nhasState: true,\nArguments: {\n    Text: string,\n    Index: any,\n    NoClick: boolean\n},\nEvents: {\n    selected: boolean,\n\tunselected: boolean,\n\tactive: boolean\n},\nStates: {\n    index: any\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1294,
+                &quot;line&quot;: 1304,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -788,7 +797,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A selection box to choose a value from a range of values.\n```json \nhasChildren: true,\nhasState: true,\nArguments: {\n    Text: string,\n\tNoButton: boolean,\n\tNoPreview: boolean\n},\nEvents: {\n    opened: boolean,\n\tclosed: boolean,\n\tclicked: boolean\n},\nStates: {\n    index: any,\n\tisOpened: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1320,
+                &quot;line&quot;: 1330,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -797,7 +806,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A selection box to choose a value from an array.\n```json \nhasChildren: true,\nhasState: true,\nArguments: {\n    Text: string,\n\tNoButton: boolean,\n\tNoPreview: boolean\n},\nEvents: {\n    opened: boolean,\n\tclosed: boolean,\n\tclicked: boolean\n},\nStates: {\n    index: any,\n\tisOpened: boolean\n},\nExtra: {\n\tselectionArray: { any }\t\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1349,
+                &quot;line&quot;: 1359,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -806,7 +815,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A selection box to choose a value from an Enum.\n```json \nhasChildren: true,\nhasState: true,\nArguments: {\n    Text: string,\n\tNoButton: boolean,\n\tNoPreview: boolean\n},\nEvents: {\n    opened: boolean,\n\tclosed: boolean,\n\tclicked: boolean\n},\nStates: {\n    index: any,\n\tisOpened: boolean\n},\nExtra: {\n\tenumType: Enum\t\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1376,
+                &quot;line&quot;: 1386,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -815,7 +824,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A layout widget which allows children to be displayed in configurable columns and rows.\n```json\nhasChildren: true,\nhasState: false,\nArguments: {\n    NumColumns: number,\n    RowBg: boolean,\n    BordersOuter: boolean,\n    BordersInner: boolean\n},\nEvents: {\n    hovered: boolean\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1395,
+                &quot;line&quot;: 1405,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         },
@@ -824,7 +833,7 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
             &quot;desc&quot;: &quot;A Window. should be used to contain most other Widgets. Cannot be inside other Widgets.\n```json\nhasChildren: true,\nhasState: true,\nArguments: {\n    Title: string,\n    NoTitleBar: boolean,\n    NoBackground: boolean,\n    NoCollapse: boolean,\n    NoClose: boolean,\n    NoMove: boolean,\n    NoScrollbar: boolean,\n    NoResize: boolean\n},\nEvents: {\n    closed: boolean,\n    opened: boolean,\n    collapsed: boolean,\n    uncollapsed: boolean,\n    hovered: boolean\n},\nStates: {\n    size: Vector2,\n    position: Vector2,\n    isUncollapsed: boolean,\n    isOpened: boolean,\n    scrollDistance: number\n}\n```\r&quot;,
             &quot;lua_type&quot;: &quot;Widget&quot;,
             &quot;source&quot;: {
-                &quot;line&quot;: 1449,
+                &quot;line&quot;: 1459,
                 &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
             }
         }
@@ -836,8 +845,8 @@ States<span class="token operator">:</span> <span class="token punctuation">{</s
         &quot;line&quot;: 764,
         &quot;path&quot;: &quot;src/client/Iris/init.lua&quot;
     }
-}</pre></details></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#types" class="table-of-contents__link toc-highlight">Types</a></li><li><a href="#properties" class="table-of-contents__link toc-highlight">Properties</a><ul><li><a href="#Button" class="table-of-contents__link toc-highlight">Button</a></li><li><a href="#Checkbox" class="table-of-contents__link toc-highlight">Checkbox</a></li><li><a href="#Collapsing" class="table-of-contents__link toc-highlight">Collapsing</a></li><li><a href="#Combo" class="table-of-contents__link toc-highlight">Combo</a></li><li><a href="#ComboArray" class="table-of-contents__link toc-highlight">ComboArray</a></li><li><a href="#DragNum" class="table-of-contents__link toc-highlight">DragNum</a></li><li><a href="#Group" class="table-of-contents__link toc-highlight">Group</a></li><li><a href="#Indent" class="table-of-contents__link toc-highlight">Indent</a></li><li><a href="#InputColor3" class="table-of-contents__link toc-highlight">InputColor3</a></li><li><a href="#InputColor4" class="table-of-contents__link toc-highlight">InputColor4</a></li><li><a href="#InputEnum" class="table-of-contents__link toc-highlight">InputEnum</a></li><li><a href="#InputNum" class="table-of-contents__link toc-highlight">InputNum</a></li><li><a href="#InputText" class="table-of-contents__link toc-highlight">InputText</a></li><li><a href="#InputUDim" class="table-of-contents__link toc-highlight">InputUDim</a></li><li><a href="#InputUDim2" class="table-of-contents__link toc-highlight">InputUDim2</a></li><li><a href="#InputVector2" class="table-of-contents__link toc-highlight">InputVector2</a></li><li><a href="#InputVector3" class="table-of-contents__link toc-highlight">InputVector3</a></li><li><a href="#Radio" class="table-of-contents__link toc-highlight">Radio</a></li><li><a href="#SameLine" class="table-of-contents__link toc-highlight">SameLine</a></li><li><a href="#Selectable" class="table-of-contents__link toc-highlight">Selectable</a></li><li><a href="#Separator" class="table-of-contents__link toc-highlight">Separator</a></li><li><a href="#SliderNum" class="table-of-contents__link toc-highlight">SliderNum</a></li><li><a href="#SmallButton" class="table-of-contents__link toc-highlight">SmallButton</a></li><li><a href="#Table" class="table-of-contents__link toc-highlight">Table</a></li><li><a href="#Text" class="table-of-contents__link toc-highlight">Text</a></li><li><a href="#TextColored" class="table-of-contents__link toc-highlight">TextColored</a></li><li><a href="#TextWrapped" class="table-of-contents__link toc-highlight">TextWrapped</a></li><li><a href="#Tooltip" class="table-of-contents__link toc-highlight">Tooltip</a></li><li><a href="#Tree" class="table-of-contents__link toc-highlight">Tree</a></li><li><a href="#Window" class="table-of-contents__link toc-highlight">Window</a></li></ul></li><li><a href="#functions" class="table-of-contents__link toc-highlight">Functions</a><ul><li><a href="#NextColumn" class="table-of-contents__link toc-highlight">.NextColumn</a></li><li><a href="#NextRow" class="table-of-contents__link toc-highlight">.NextRow</a></li><li><a href="#SetColumnIndex" class="table-of-contents__link toc-highlight">.SetColumnIndex</a></li><li><a href="#SetFocusedWindow" class="table-of-contents__link toc-highlight">.SetFocusedWindow</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2023 Michael_48</div></div></div></footer></div>
-<script src="/Iris/assets/js/runtime~main.50c81dc4.js"></script>
-<script src="/Iris/assets/js/main.f56d4d2f.js"></script>
+}</pre></details></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#types" class="table-of-contents__link toc-highlight">Types</a></li><li><a href="#properties" class="table-of-contents__link toc-highlight">Properties</a><ul><li><a href="#Button" class="table-of-contents__link toc-highlight">Button</a></li><li><a href="#Checkbox" class="table-of-contents__link toc-highlight">Checkbox</a></li><li><a href="#CollapsingHeader" class="table-of-contents__link toc-highlight">CollapsingHeader</a></li><li><a href="#Combo" class="table-of-contents__link toc-highlight">Combo</a></li><li><a href="#ComboArray" class="table-of-contents__link toc-highlight">ComboArray</a></li><li><a href="#DragNum" class="table-of-contents__link toc-highlight">DragNum</a></li><li><a href="#Group" class="table-of-contents__link toc-highlight">Group</a></li><li><a href="#Indent" class="table-of-contents__link toc-highlight">Indent</a></li><li><a href="#InputColor3" class="table-of-contents__link toc-highlight">InputColor3</a></li><li><a href="#InputColor4" class="table-of-contents__link toc-highlight">InputColor4</a></li><li><a href="#InputEnum" class="table-of-contents__link toc-highlight">InputEnum</a></li><li><a href="#InputNum" class="table-of-contents__link toc-highlight">InputNum</a></li><li><a href="#InputText" class="table-of-contents__link toc-highlight">InputText</a></li><li><a href="#InputUDim" class="table-of-contents__link toc-highlight">InputUDim</a></li><li><a href="#InputUDim2" class="table-of-contents__link toc-highlight">InputUDim2</a></li><li><a href="#InputVector2" class="table-of-contents__link toc-highlight">InputVector2</a></li><li><a href="#InputVector3" class="table-of-contents__link toc-highlight">InputVector3</a></li><li><a href="#RadioButton" class="table-of-contents__link toc-highlight">RadioButton</a></li><li><a href="#SameLine" class="table-of-contents__link toc-highlight">SameLine</a></li><li><a href="#Selectable" class="table-of-contents__link toc-highlight">Selectable</a></li><li><a href="#Separator" class="table-of-contents__link toc-highlight">Separator</a></li><li><a href="#SliderNum" class="table-of-contents__link toc-highlight">SliderNum</a></li><li><a href="#SmallButton" class="table-of-contents__link toc-highlight">SmallButton</a></li><li><a href="#Table" class="table-of-contents__link toc-highlight">Table</a></li><li><a href="#Text" class="table-of-contents__link toc-highlight">Text</a></li><li><a href="#TextColored" class="table-of-contents__link toc-highlight">TextColored</a></li><li><a href="#TextWrapped" class="table-of-contents__link toc-highlight">TextWrapped</a></li><li><a href="#Tooltip" class="table-of-contents__link toc-highlight">Tooltip</a></li><li><a href="#Tree" class="table-of-contents__link toc-highlight">Tree</a></li><li><a href="#Window" class="table-of-contents__link toc-highlight">Window</a></li></ul></li><li><a href="#functions" class="table-of-contents__link toc-highlight">Functions</a><ul><li><a href="#NextColumn" class="table-of-contents__link toc-highlight">.NextColumn</a></li><li><a href="#NextRow" class="table-of-contents__link toc-highlight">.NextRow</a></li><li><a href="#SetColumnIndex" class="table-of-contents__link toc-highlight">.SetColumnIndex</a></li><li><a href="#SetFocusedWindow" class="table-of-contents__link toc-highlight">.SetFocusedWindow</a></li></ul></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2023 Michael_48</div></div></div></footer></div>
+<script src="/Iris/assets/js/runtime~main.be8d8c24.js"></script>
+<script src="/Iris/assets/js/main.8dc3490c.js"></script>
 </body>
 </html>
