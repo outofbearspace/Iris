@@ -12,11 +12,11 @@ Iris.WidgetConstructor("Text", {
     Args = {
         ["Text"] = 1
     },
-    Events  {
+    Events = {
         ["hovered"] = {
             ...
         }
-    }
+    },
     Generate = function(thisWidget)
         local Text = Instance.new("TextLabel")
         
